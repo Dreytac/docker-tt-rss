@@ -35,12 +35,13 @@ RUN \
  if [ -z ${TT_RSS_VERSION+x} ]; then \
  	TT_RSS_VERSION=$(git ls-remote https://git.tt-rss.org/fox/tt-rss.git HEAD | cut -c1-8); \
  fi && \
- curl -o \
-	/tmp/ttrss.tar.gz -L \
-	"https://git.tt-rss.org/git/tt-rss/archive/${TT_RSS_VERSION}.tar.gz" && \
- tar xf \
- /tmp/ttrss.tar.gz -C \
-	/var/www/html/ --strip-components=1 && \
+#curl -o \
+#	/tmp/ttrss.tar.gz -L \
+#	"https://git.tt-rss.org/git/tt-rss/archive/${TT_RSS_VERSION}.tar.gz" && \
+# tar xf \
+# /tmp/ttrss.tar.gz -C \
+#	/var/www/html/ --strip-components=1 && \
+ git clone https://git.tt-rss.org/fox/tt-rss.git /var/www/html
  echo "**** link php7 to php ****" && \
  ln -sf /usr/bin/php7 /usr/bin/php && \
  echo "**** cleanup ****" && \
