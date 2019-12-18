@@ -41,7 +41,7 @@ RUN \
 # tar xf \
 # /tmp/ttrss.tar.gz -C \
 #	/var/www/html/ --strip-components=1 && \
- git clone https://git.tt-rss.org/fox/tt-rss.git /var/www/html
+ git clone https://git.tt-rss.org/fox/tt-rss.git /var/www/html && \
  echo "**** link php7 to php ****" && \
  ln -sf /usr/bin/php7 /usr/bin/php && \
  echo "**** cleanup ****" && \
