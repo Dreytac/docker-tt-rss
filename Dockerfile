@@ -1,4 +1,4 @@
-FROM lsiobase/nginx:3.10
+FROM lsiobase/nginx:3.13
 
 # set version label
 ARG BUILD_DATE
