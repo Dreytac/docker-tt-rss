@@ -34,7 +34,7 @@ RUN \
 	php8-posix \
 	php8-openssl \
 	php8-session \
-	php8-simplexml
+	php8-simplexml \
 	php8-xml \
 	php8-xmlwriter \
 	php8-zlib \
