@@ -17,6 +17,7 @@ RUN \
 	php8-curl \
 	php8-dom \
 	php8-fileinfo \
+	php8-fpm \
 	php8-gd \
 	php8-iconv \
 	php8-intl \
@@ -33,7 +34,10 @@ RUN \
 	php8-posix \
 	php8-openssl \
 	php8-session \
+	php8-simplexml
 	php8-xml \
+	php8-xmlwriter \
+	php8-zlib \
 	php8-zip \
 	tar && \
  echo "**** install software ****" && \
