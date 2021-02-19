@@ -14,7 +14,6 @@ RUN \
 	git \
 	grep \
 	php8 \
-	php8-apcu \
 	php8-curl \
 	php8-dom \
 	php8-fileinfo \
@@ -24,7 +23,6 @@ RUN \
 	php8-json \
 	php8-ldap \
 	php8-mbstring \
-	php8-mcrypt \
 	php8-mysqli \
 	php8-mysqlnd \
 	php8-pcntl \
