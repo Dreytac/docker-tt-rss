@@ -26,6 +26,7 @@ RUN \
 	php8-mysqli \
 	php8-mysqlnd \
 	php8-pcntl \
+	php8-pdo \
 	php8-pdo_mysql \
 	php8-pdo_pgsql \
 	php8-pgsql \
