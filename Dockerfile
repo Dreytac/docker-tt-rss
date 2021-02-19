@@ -17,10 +17,13 @@ RUN \
 	php8-apcu \
 	php8-curl \
 	php8-dom \
+	php8-fileinfo \
 	php8-gd \
 	php8-iconv \
 	php8-intl \
+	php8-json
 	php8-ldap \
+	php8-mbstring \
 	php8-mcrypt \
 	php8-mysqli \
 	php8-mysqlnd \
@@ -29,6 +32,10 @@ RUN \
 	php8-pdo_pgsql \
 	php8-pgsql \
 	php8-posix \
+	php8-openssl \
+	php8-session \
+	php8-xml \
+	php8-zip \
 	tar && \
  echo "**** install software ****" && \
  mkdir -p \
