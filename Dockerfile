@@ -21,7 +21,7 @@ RUN \
 	php8-gd \
 	php8-iconv \
 	php8-intl \
-	php8-json
+	php8-json \
 	php8-ldap \
 	php8-mbstring \
 	php8-mcrypt \
